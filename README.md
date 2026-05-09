@@ -19,3 +19,19 @@ Feature Selection Module
 Pandas Processing Functions
         ↓
 Updated Dataset Output
+
+Features
+1. Intelligent Query Routing
+Uses an LLM to classify user requests and route them to the correct function.
+
+2. Missing Value Handling
+Supports multiple strategies:
+Mean / Median / Mode imputation
+Forward fill / Backward fill
+Row removal
+
+3. Dataset Summarization
+Generates automatic dataset insights and statistics.
+
+4. Modular Design
+Each feature is implemented as an independent module (notebook-based for experimentation).
